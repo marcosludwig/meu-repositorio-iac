@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Instalando dependências"
+  build:
+    commands:
+      - echo "Validando infraestrutura"
+      - aws cloudformation validate-template --template-body file://infraestrutura.yaml
