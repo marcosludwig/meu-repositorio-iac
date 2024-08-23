@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: Cria??o de uma inst?ncia EC2, Load Balancer e RDS
+Description: Criação de uma instância EC2, Load Balancer e RDS
 
 Resources:
   MyEC2Instance:
